@@ -4,7 +4,7 @@
 
 ## 1. `public/images/hero.jpg` — главное фото (обязательно)
 
-> Luxurious modern living room interior after professional cleaning, floor-to-ceiling windows with sea view (Sochi coast), white sofa, marble floor with soft reflections, light airy atmosphere, beige and white palette with subtle warm light, minimalist premium design, no people, photorealistic, architectural photography, 4k
+> Warm modern living room interior after professional cleaning in Novy Urengoy, floor-to-ceiling windows, subtle snowy city at blue hour outside, white sofa, wood and stone textures, warm light inside, premium minimal design, no people, no sea, no mountains, no recognizable landmarks, photorealistic, architectural photography, 4k
 >
 > Формат: горизонтальный 4:3 или 16:10, важная зона — правая половина кадра (левая уходит под диагональный срез).
 

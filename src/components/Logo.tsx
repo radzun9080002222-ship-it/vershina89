@@ -25,7 +25,7 @@ export default function Logo({ height = 42, className = "" }: Props) {
         style={{ height, width: boxW, overflow: "hidden", position: "relative", display: "inline-block" }}
       >
         <img
-          src="/images/logo.png"
+          src="./images/logo.png"
           alt="Вершина — профессиональный клининг"
           style={{
             position: "absolute",

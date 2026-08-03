@@ -10,7 +10,7 @@ export const NAV = [
   { href: "#services", label: "Услуги" },
   { href: "#cases", label: "Результаты" },
   { href: "#standard", label: "Стандарт" },
-  { href: "#rent", label: "Для аренды" },
+  { href: "#rent", label: "Для объектов" },
   { href: "#faq", label: "Вопросы" },
 ];
 
@@ -135,24 +135,24 @@ export const TARIFFS: Tariff[] = [
 export const CASES = [
   {
     title: "Генеральная уборка",
-    place: "ЖК «Курортный проспект», 94 м²",
+    place: "Квартира, 94 м²",
     facts: ["7 часов", "3 специалиста", "приёмка с первого раза"],
-    before: "/images/case1-before.jpg",
-    after: "/images/case1-after.jpg",
+    before: "./images/case1-before.jpg",
+    after: "./images/case1-after.jpg",
   },
   {
     title: "После ремонта",
-    place: "Мамайка, 61 м²",
+    place: "Квартира после ремонта, 61 м²",
     facts: ["2 дня", "4 специалиста", "вывоз строительной пыли"],
-    before: "/images/case2-before.jpg",
-    after: "/images/case2-after.jpg",
+    before: "./images/case2-before.jpg",
+    after: "./images/case2-after.jpg",
   },
   {
     title: "Дом под ключ",
-    place: "Красная Поляна, 180 м²",
+    place: "Загородный дом, 180 м²",
     facts: ["2 дня", "5 специалистов", "окна + ароматизация"],
-    before: "/images/case3-before.jpg",
-    after: "/images/case3-after.jpg",
+    before: "./images/case3-before.jpg",
+    after: "./images/case3-after.jpg",
   },
 ];
 
@@ -188,7 +188,7 @@ export const FAQ = [
     a: "Сначала вы принимаете работу по чек-листу — недочёты устраняются сразу. Если что-то заметили после — 48 часов гарантии: вернёмся и переделаем бесплатно.",
   },
   {
-    q: "Вы работаете с посуточной арендой?",
-    a: "Да, это отдельное направление: уборка между гостями за 3 часа, фотоотчёт собственнику, абонементы со скидкой. Подробности — в блоке «Для аренды».",
+    q: "Вы работаете с арендным и корпоративным жильём?",
+    a: "Да. Убираем квартиры между заселениями и по регулярному графику, отправляем фотоотчёт и закрепляем постоянную команду. Подробности — в блоке «Для объектов».",
   },
 ];

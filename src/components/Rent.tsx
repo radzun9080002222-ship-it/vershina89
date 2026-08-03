@@ -2,7 +2,7 @@ import { ArrowRight, Camera, Clock4, RotateCcw } from "lucide-react";
 import { MAX_LINK } from "../data";
 
 const POINTS = [
-  { icon: Clock4, title: "Слот за 3 часа", text: "Уборка между выездом и заездом гостей — без срыва брони." },
+  { icon: Clock4, title: "Слот по графику", text: "Приезжаем между заселениями или по согласованному расписанию." },
   { icon: Camera, title: "Фотоотчёт", text: "Видите состояние объекта после каждой уборки, где бы вы ни были." },
   { icon: RotateCcw, title: "Абонемент", text: "Постоянная команда, приоритетные слоты и цена ниже разовой." },
 ];
@@ -13,9 +13,9 @@ export default function Rent() {
       <div className="container-x">
         <div className="grid items-end gap-8 lg:grid-cols-[1fr_auto]">
           <div>
-            <div className="kicker">Для посуточной аренды и арендодателей</div>
+            <div className="kicker">Для арендного и корпоративного жилья</div>
             <h2 className="mt-3 max-w-2xl text-3xl font-semibold leading-snug md:text-4xl">
-              Ваши квартиры зарабатывают.
+              Объекты готовы к заселению.
               <br />
               <span className="text-white/50">Чистоту мы берём на себя.</span>
             </h2>

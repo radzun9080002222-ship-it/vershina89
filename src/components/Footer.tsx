@@ -16,12 +16,13 @@ export default function Footer() {
         </nav>
         <div className="space-y-2.5 text-sm text-ink/70">
           <a href={PHONE_HREF} className="block font-semibold text-graphite hover:text-emerald">{PHONE}</a>
+          <span className="block">Новый Уренгой · выезд по городу</span>
         </div>
       </div>
       <div className="border-t border-black/5">
         <div className="container-x flex flex-col items-center justify-between gap-2 py-5 text-xs text-ink/40 md:flex-row">
           <span>© {new Date().getFullYear()} Вершина. Профессиональный клининг.</span>
-          <a href="/privacy.html" className="hover:text-emerald">Политика конфиденциальности</a>
+          <a href="./privacy.html" className="hover:text-emerald">Политика конфиденциальности</a>
         </div>
       </div>
     </footer>
