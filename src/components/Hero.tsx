@@ -37,7 +37,7 @@ export default function Hero() {
             в Новом Уренгое
           </span>
           <p className="mt-6 max-w-md text-lg leading-relaxed text-ink/70 md:text-xl">
-            Премиальный клининг квартир и домов в Новом Уренгое.
+            Доступный клининг в каждую квартиру и дом Нового Уренгоя.
             Точная цена за 2 минуты — до приезда, а не после.
           </p>
           <div className="mt-9">
