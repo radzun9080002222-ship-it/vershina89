@@ -1,9 +1,5 @@
-const prices = [
-  { service: "Влажная уборка", rate: "180 ₽/м²", minimum: "от 8 000 ₽" },
-  { service: "Генеральная уборка", rate: "280 ₽/м²", minimum: "от 12 000 ₽" },
-  { service: "После ремонта", rate: "350 ₽/м²", minimum: "от 15 000 ₽" },
-  { service: "Под ключ", rate: "от 500 ₽/м²", minimum: "от 15 000 ₽" },
-];
+import { TARIFFS } from "../data";
+const prices = TARIFFS.map(t => ({service: t.name, rate: t.rate ? t.rate + " ₽/м²" : t.rateOptions!.map(o => o.rate).join(" / ") + " ₽/м²", minimum: "от 6 000 ₽"}));
 
 export default function SeoCopy() {
   return (
@@ -20,8 +16,7 @@ export default function SeoCopy() {
             профессиональные средства, работаем по чек-листу и заранее фиксируем стоимость.
           </p>
           <p className="mt-3 max-w-xl text-sm leading-7 text-ink/65">
-            Расчёт в калькуляторе начинается с 25 м². Для уборки под ключ цена зависит
-            от типа окон: стандартные — 500 ₽/м², панорамные — 600 ₽/м².
+            Расчёт начинается с 25 м². Фасадная генеральная с окнами — 450/550 ₽/м², всё включено — 500/600 ₽/м²: стандартные/панорамные окна. Минимум выезда — 6 000 ₽ на общую сумму услуг.
           </p>
         </div>
 
